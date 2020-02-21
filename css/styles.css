@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.nav-bar {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    background-color: rgba(53, 108, 170, .7);
+    z-index: 1;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+.nav-list {
+    float: right;
+    margin-right: 20px;
+    margin-top: 25px;
+    font-family: "Lato", sans-serif;
+}
+.list-item {
+    display: inline-block;
+    margin: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    letter-spacing: 8px;
+}
+.list-item:hover {
+    color: rgb(131, 122, 100);
+}
+
+
+
+
+body, html{
+    height: 100%;
+    margin: 0;
+    font-size: 16;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+  }
+  
+  .pimg1, .pimg2, .pimg3{
+    position: relative;
+    opacity: 0.8;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    background-attachment: fixed;
+  }
+  
+  .pimg1{
+    background-image: url("../imgs/Earth.jpg");
+    min-height: 100%;
+  }
+  
+  .pimg2{
+    background-image: url("../imgs/flat-earth.jpg");
+    min-height: 500px;
+  }
+  
+  .pimg3{
+    background-image: url("../imgs/flat-earth2.jpg");
+    min-height: 500px;
+  }
+  
+  .section{
+    text-align: center;
+    padding: 50px 80px;
+  }
+  
+  .section-light{
+    background-color: #f4f4f4;
+    color: #666;
+  }
+  
+  .section-dark{
+    background-color: #282e34;
+    color: #ddd;
+  }
+  
+  .ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+  }
+  
+  .ptext, .border{
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .ptext .border.trans{
+    background-color: transparent;
+  }
+
+footer {
+    width: 100%;
+    height: 75px;
+    background-color: rgba(53, 108, 170, .7);
+    /* float: left; */
+}
+.copy-right, .social, .input {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+.copy-right {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+  }
+.fab {
+    font-size: 2em;
+    padding: 5px;
+    margin-top: 13px;
+}
+.fa-facebook-square {
+    color: rgb(58,85,159);
+}
+.fa-instagram {
+    color: rgb(164,67,173);
+}
+.fa-twitter-square {
+    color: rgb(29,161,242);
+}
